@@ -1,0 +1,120 @@
+body {
+    padding-top: 90px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+header {
+    width: 100%; /* 幅いっぱいを指定 */
+    height: 50px; /* 高さを50pxに指定 */
+    background: sandybrown; /* 背景色にグレーを指定 */
+    padding: 20px 50px; /* ヘッダーに上下左右それぞれ余白を指定 */
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    display: flex; /* 中の要素を横並びにする */
+    align-items: center; /* 中の要素を上下中央に並べる */
+}
+header .gnav .menu {
+    display: flex; /* 中の要素を横並びにする */
+}
+header .gnav .menu li {
+    list-style: none; /* リストの[・]を消す */
+}
+header .gnav .menu li + li {
+    margin-left: 40px; /* メニューそれぞれに間隔をあけるため */
+}
+
+
+
+
+
+table,body,#setu,button,header,head{
+    font-family : 'SimSun','sans-serif';
+    }
+
+table,td{
+    border:2px solid black;
+    border-collapse: collapse;
+    background-color: green;
+}
+body {
+    font-family:'Noto Sans JP',sans-serif;
+    background-color:#f6f5f4;
+    text-align:center;
+ }
+ article {
+    display:flex; /*サイドバーとメインコンテンツを横並びにする指定をした*/
+    width: 100%;
+}
+.content {
+    background-color:#b3d874;
+    width:600px;
+    height:650px;
+    text-align:center;
+    margin-left:10px; /*サイドバーとメインコンテンツの間に隙間をあけた*/
+    top: 0;
+    position: center;
+    margin-right: auto;
+    margin-left: auto; 
+    position: flex;
+    box-sizing: border-box;
+  }
+ .sidemigi {
+    background-color:#f6f5f400;
+    width:350px;
+    height:500px;
+    right: 0;
+    position: sticky;
+    position: fixed;
+    top: 0;
+    max-height: 100 ;
+    padding-top: 90px;
+  } 
+  .sidehidari {
+    background-color:#f6f5f400;
+    width:350px;
+    height:500px;
+    left: 0;
+    position: sticky;
+    position: fixed;
+    top: 0;
+    max-height: 100 ;
+    padding-top: 90px;
+  } 
+#caption{
+    font-size: 50px;
+}
+.white::before{
+    color: white;
+    font-size: 30px;
+    content: "●";
+}
+.black::before{
+    font-size: 30px;
+    color: black;
+    content:"●";
+}
+.han::before{
+    font-size: 30px;
+    color: orange;
+    content:"●";
+}
+#caption2{
+    font-size: 40px;
+    caption-side: bottom; 
+}
+#teen{
+    font-size:  30px;
+}
+#cause{
+    font-size: 22px;
+}
+#button{
+    font-size: 15px;
+}
+#setu{
+    font-size: 20px;
+    text-align: center;
+}
+#你好{
+    font-size: 90px;
+}
